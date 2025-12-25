@@ -1,7 +1,7 @@
 ﻿using Calculator.Domain;
 namespace Calculator.CalculatorServices;
 
-public class Calculator : ICalculator
+public class CalculatorClass : ICalculator
 {
     public double Add(double x, double y) => x + y;
     public double Subtract(double x, double y) => x - y;
