@@ -10,8 +10,6 @@ public class CalculatorConsole
         Console.WriteLine("Welcome to calculator app");
         while (true)
         {
-            Console.WriteLine("Please type two numbers.");
-            (double x, double y) = GetValues();
             Console.Write("Select action (+, -, *, /, 0 to exit): ");
             string? action = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(action))
@@ -19,6 +17,12 @@ public class CalculatorConsole
                 Console.WriteLine("Invalid input");
                 continue;
             }
+            if (action == "0")
+            {
+                return;
+            }
+            Console.WriteLine("Please type two numbers.");
+            (double x, double y) = GetValues();
             switch (action)
             {
                 case "+":
@@ -33,8 +37,6 @@ public class CalculatorConsole
                 case "/":
                     Console.WriteLine($"{x} / {y} = {_service.PerformDivision(x, y)}");
                     break;
-                case "0":
-                    return;
                 default:
                     Console.WriteLine("Invalid input.");
                     break;
