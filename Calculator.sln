@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorConsoleUI", "CalculatorConsoleUI\CalculatorConsoleUI.csproj", "{FB6F531F-7B18-4415-A3C9-3481F8CD3821}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTests", "CalculatorTests\CalculatorTests.csproj", "{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{FB6F531F-7B18-4415-A3C9-3481F8CD3821}.Release|x64.Build.0 = Release|Any CPU
 		{FB6F531F-7B18-4415-A3C9-3481F8CD3821}.Release|x86.ActiveCfg = Release|Any CPU
 		{FB6F531F-7B18-4415-A3C9-3481F8CD3821}.Release|x86.Build.0 = Release|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Debug|x64.Build.0 = Debug|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Debug|x86.Build.0 = Debug|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Release|x64.ActiveCfg = Release|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Release|x64.Build.0 = Release|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Release|x86.ActiveCfg = Release|Any CPU
+		{AACD4D7A-D1EA-41D2-9735-03AEF5AFD597}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
