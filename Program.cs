@@ -8,7 +8,7 @@ class Program
     {
         // try
         // {
-        //     var calculator = new CalculatorClass();
+        //     var calculator = new Calculator();
         //     var service = new CalculatorService(calculator);
         //     var console = new CalculatorConsole(service);
         //     console.Run();
@@ -18,8 +18,7 @@ class Program
         //     Console.WriteLine($"Error: {ex.Message}");
         // }
         var services = new ServiceCollection();
-        services.AddTransient<ICalculator, CalculatorClass>();
-        services.AddTransient<CalculatorService>();
+        services.AddTransient<ICalculator, BasicCalculator>();
         services.AddSingleton<CalculatorConsole>();
         var provider = services.BuildServiceProvider();
         try
